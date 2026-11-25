@@ -1,28 +1,28 @@
 class Agentbackup < Formula
   desc "Cross-harness AI coding agent conversation backup CLI"
   homepage "https://github.com/anilzeybek/agentbackup"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.0/agentbackup-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8199fbe0191de78ba08308cdd5792bf0c20ad27c8ea0ade1b1ef8924b2b872e9"
+      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.1/agentbackup-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "39c0a2c9b28856282c2f395aa193977e18212e24de9d57ee6cd23af921ca765c"
     end
     on_intel do
-      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.0/agentbackup-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cfc1733314a9ed0b8acb96e42344f29656b694e44461417d743f8b5345c66845"
+      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.1/agentbackup-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3b4f617bd68fd8b0d83f0c977cc1af5c427a6ecfd9b3916eed7362208d69332a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.0/agentbackup-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "caf6cf3b59a3aacfb674e2db672e151e1a07f4a80568035f3ae5d2e4c5982623"
+      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.1/agentbackup-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2fcbabcbf4903e50950a2ecce9958ae9280878b3d64f429b87c5e63a4479689c"
     end
     on_intel do
-      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.0/agentbackup-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b1b91e3f3605523d472de76b2d8420a73e4cb993ba6d09b85e6c869b79bca0d5"
+      url "https://github.com/anilzeybek/agentbackup/releases/download/v0.1.1/agentbackup-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4b57206fdde9621b7fc79c09bd92bfe41e25a716ffa3ea8e937cac79f6e9eaa4"
     end
   end
 
